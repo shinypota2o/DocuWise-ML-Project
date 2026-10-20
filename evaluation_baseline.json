@@ -1,0 +1,1025 @@
+{
+ "classifier": {
+  "n": 281,
+  "accuracy": 0.932,
+  "per_class": {
+   "Identification": {
+    "precision": 0.955,
+    "recall": 0.981,
+    "f1": 0.967,
+    "support": 258
+   },
+   "Enumeration": {
+    "precision": 0.417,
+    "recall": 0.385,
+    "f1": 0.4,
+    "support": 13
+   },
+   "Concepts": {
+    "precision": 1.0,
+    "recall": 0.167,
+    "f1": 0.286,
+    "support": 6
+   },
+   "Formula": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.857,
+    "support": 4
+   }
+  },
+  "macro_f1": 0.628,
+  "confusion_matrix": {
+   "rows=true, cols=predicted": [
+    "Identification",
+    "Enumeration",
+    "Concepts",
+    "Formula"
+   ],
+   "matrix": [
+    [
+     253,
+     5,
+     0,
+     0
+    ],
+    [
+     8,
+     5,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     3
+    ]
+   ]
+  },
+  "naive_bayes_only": {
+   "n": 281,
+   "accuracy": 0.932,
+   "per_class": {
+    "Identification": {
+     "precision": 0.955,
+     "recall": 0.981,
+     "f1": 0.967,
+     "support": 258
+    },
+    "Enumeration": {
+     "precision": 0.417,
+     "recall": 0.385,
+     "f1": 0.4,
+     "support": 13
+    },
+    "Concepts": {
+     "precision": 1.0,
+     "recall": 0.167,
+     "f1": 0.286,
+     "support": 6
+    },
+    "Formula": {
+     "precision": 1.0,
+     "recall": 0.75,
+     "f1": 0.857,
+     "support": 4
+    }
+   },
+   "macro_f1": 0.628,
+   "confusion_matrix": {
+    "rows=true, cols=predicted": [
+     "Identification",
+     "Enumeration",
+     "Concepts",
+     "Formula"
+    ],
+    "matrix": [
+     [
+      253,
+      5,
+      0,
+      0
+     ],
+     [
+      8,
+      5,
+      0,
+      0
+     ],
+     [
+      4,
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      3
+     ]
+    ]
+   }
+  },
+  "shape_fallback": {
+   "used": 1,
+   "of": 281,
+   "accuracy_when_used": 0.0
+  }
+ },
+ "classifier_per_file": {
+  "4.-GS_Gender-Development-Theories_compressed.pdf": {
+   "n": 36,
+   "correct": 26,
+   "accuracy": 0.722
+  },
+  "Biblical-and-psychological-view-incomplete.pptx": {
+   "n": 8,
+   "correct": 8,
+   "accuracy": 1.0
+  },
+  "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx": {
+   "n": 196,
+   "correct": 190,
+   "accuracy": 0.969
+  },
+  "CSS_BoxModel_Typography_Flexbox_Presentation-3.pptx": {
+   "n": 8,
+   "correct": 7,
+   "accuracy": 0.875
+  },
+  "Flutter_Event_Handling_and_Navigation_Professional (1).pptx": {
+   "n": 29,
+   "correct": 28,
+   "accuracy": 0.966
+  },
+  "Global-vs-Differentiated-Models-Real-and-Ideal-Self-Concepts.pptx": {
+   "n": 4,
+   "correct": 3,
+   "accuracy": 0.75
+  }
+ },
+ "system": {
+  "n": 281,
+  "accuracy": 0.932,
+  "per_class": {
+   "Identification": {
+    "precision": 0.955,
+    "recall": 0.981,
+    "f1": 0.967,
+    "support": 258
+   },
+   "Enumeration": {
+    "precision": 0.417,
+    "recall": 0.385,
+    "f1": 0.4,
+    "support": 13
+   },
+   "Concepts": {
+    "precision": 1.0,
+    "recall": 0.167,
+    "f1": 0.286,
+    "support": 6
+   },
+   "Formula": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.857,
+    "support": 4
+   }
+  },
+  "macro_f1": 0.628,
+  "confusion_matrix": {
+   "rows=true, cols=predicted": [
+    "Identification",
+    "Enumeration",
+    "Concepts",
+    "Formula"
+   ],
+   "matrix": [
+    [
+     253,
+     5,
+     0,
+     0
+    ],
+    [
+     8,
+     5,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     3
+    ]
+   ]
+  },
+  "routing_accuracy": 0.932,
+  "junk_units": 20,
+  "junk_shown": 19,
+  "unlabelled_units": 0,
+  "labelled_units_not_found": 0,
+  "route_matrix": {
+   "Enumeration": {
+    "Enumeration": 7,
+    "Identification": 5,
+    "dropped": 1
+   },
+   "Identification": {
+    "Identification": 249,
+    "dropped": 4,
+    "Enumeration": 5
+   },
+   "Concepts": {
+    "Identification": 3,
+    "dropped": 1,
+    "Enumeration": 2
+   },
+   "skip": {
+    "Identification": 15,
+    "dropped": 1,
+    "Enumeration": 4
+   },
+   "Formula": {
+    "Formula": 3,
+    "dropped": 1
+   }
+  },
+  "quality_totals": {
+   "bad_enum_title": 4,
+   "fake_list_from_one_sentence": 2
+  }
+ },
+ "files": {
+  "4.-GS_Gender-Development-Theories_compressed.pdf": {
+   "labels": {
+    "Enumeration": 8,
+    "Identification": 25,
+    "Concepts": 3,
+    "skip": 13
+   },
+   "system_counts": {
+    "terms": 32,
+    "enumerations": 2,
+    "enum_items": 15,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 49,
+    "match_exact": 49,
+    "labelled": 36,
+    "label_correct": 26,
+    "route_correct": 29,
+    "junk_units": 13,
+    "junk_shown": 13,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.722,
+   "routing_accuracy": 0.806,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 51,
+   "left_out_lines": 65,
+   "left_out_sample": [
+    "Sandra Bem’s Gender Schema Theory",
+    "From a young age, children learn these gender schemas by observing the people around them, media, and societal norms, and they start using these schemas to guide their behavior and understand what is expected of them as boys or girls.",
+    "Culture plays a significant role in determining what behaviors, responsibilities, and characteristics are deemed appropriate for men and women.",
+    "Examples: Masculinity and Emotional Expression; Women as Caregivers; Male Leadership",
+    "Culture Influences How People Are Valued",
+    "Cultural norms also play a major role in how people are valued based on their gender, with different cultures emphasizing different attributes for men and women.",
+    "Examples: Beauty Standards for Women; Financial Success for Men;",
+    "Cultural Influences Can Be Overt and Subtle",
+    "Cultural influences on gender schemas can manifest in both obvious and more nuanced ways.",
+    "Examples: Overt Gender Segregation in Schools; Subtle Messages in Media",
+    "Level 1. Preconventional Morality (Typically seen in young children, but some adults may remain at this level)",
+    "At the pre-conventional level, Action is driven by fear and self-interest."
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.812,
+     "text": "Children first learn their own gender by ages two and three . Then, they learn what it means to be a male or female in their society. Childr"
+    },
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.958,
+     "text": "Sandra Bem observed that the gender binary between male and female had become one of the basic organizational structures in human society. A"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.532,
+     "text": "Kohlberg's Theory of Moral Development Stages Obedience and Punishment Individualism and Exchange Developing Good Interpersonal Relationship"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.995,
+     "text": "Behaviour is determined by consequences. The individual will obey in order to avoid punishment."
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.998,
+     "text": "Behaviour is determined again by consequences. The individual focuses on receiving rewards or satisfying personal needs."
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Stage 1. Obedience and Punishment: Example: A young child does not touch a hot stove because their parent has warned them that if they do, t"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Stage 2. Individualism and Exchange: Example: A child agrees to lend their bike to a friend, expecting that the friend will let them borrow "
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.999,
+     "text": "At this stage, the focus is on living up to societal expectations and roles. There is an emphasis on conformity, being “niceˮ, and considera"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.998,
+     "text": "The individual now takes into consideration a larger perspective, that of societal laws. The focus is on maintaining law and order by follow"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Stage 3. Developing Good Interpersonal Relationship: Example: A student avoids cheating on a test because they don’t want their teacher to t"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Stage 4. Maintaining Social Order: Example: A student refuses to copy homework from a classmate because they believe in upholding the school"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.999,
+     "text": "Individuals recognize that laws and rules are based on social contracts that promote the greatest good, but they understand that laws can be"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.987,
+     "text": "People at this stage have developed their own set of moral guidelines, which may or may not fit the law. The principles apply to everyone."
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Stage 6. Universal Principles: Example: A doctor refuses to follow a hospital policy that denies treatment to patients without insurance bec"
+    },
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.982,
+     "text": "5) (by ages 2 and 3) The understanding of Children start to realize"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Biological Factors: Example: A transgender person may choose to undergo hormone replacement therapy (HRT) to align their physical characteri"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Socialization: Example: A child is introduced to gender roles through media, such as TV shows or movies, where male characters are often dep"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Psychological Factors: Example: A girl who excels in science and math, traditionally seen as male-dominated fields, may face internal confli"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Social Comparison: Example: A young girl compares herself to other girls who enjoy wearing makeup and dressing up."
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Environmental Factors: Example: A girl raised in a progressive household that encourages equality between genders may feel more comfortable "
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Interactionist Approach: Example: A transgender woman may have biological characteristics associated with maleness but feels a deep psycholo"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Individual Differences: Example: A non-binary person who doesn’t identify strictly as male or female expresses their gender fluidly, wearing"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Politics: People who identify as non-binary are an example of how queer theory opens up new understandings of gender. Many non-binary people"
+    }
+   ]
+  },
+  "Biblical-and-psychological-view-incomplete.pptx": {
+   "labels": {
+    "Identification": 8
+   },
+   "system_counts": {
+    "terms": 4,
+    "enumerations": 0,
+    "enum_items": 0,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 8,
+    "match_exact": 8,
+    "labelled": 8,
+    "label_correct": 8,
+    "route_correct": 4,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 1.0,
+   "routing_accuracy": 0.5,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 23,
+   "left_out_lines": 35,
+   "left_out_sample": [
+    "The Christian or Biblical view of Self",
+    "And God said, “Let the land produce living creatures according to their kinds: the livestock, the creatures that move along the ground, and the wild animals, each according to its kind.” And it was so. 25 God made the wild animals according to their kinds, the livestock according to their kinds, and all the creatures that move along the ground according to their kinds. And God saw that it was good.",
+    "26 Then God said, “Let us make mankind in our image, in our likeness, so that they may rule over the fish in the sea and the birds in the sky, over the livestock and all the wild animals,[a] and over all the creatures that move along the ground.”",
+    "27 So God created mankind in his own image,",
+    "in the image of God he created them;",
+    "male and female he created them.",
+    "28 God blessed them and said to them, “Be fruitful and increase in number; fill the earth and subdue it. Rule over the fish in the sea and the birds in the sky and over every living creature that moves on the ground.”",
+    "St. Augustine: Love and Justice as the foundation of the Individual Self.",
+    "St. Augustine believes that a virtues life is dynamism of love. It is a constant following of and turning towards love while a wicked life is a constant turning away from love. Loving God means loving one’s fellowmen; and loving one’s fellowmen denotes never doing any harm to another or, as the golden principle of justice states, doing unto others as you would have them unto you.",
+    "The id, the most primitive part of the three structures, refers to the irrational needs and demands of a person. In no way does it take into account the current situation, but rather focuses on immediate satisfaction and fulfilment of physical basic needs and drives.",
+    "If a car-lover sees a beautiful car drive by, the id would immediately desire to own it. It doesn’t take into account that it would be illegal to simply take this car, it’s only concerned about the fact that the person wants this car.",
+    "A practical and beautiful side of the id is that a baby starts to cry when it’s hungry. When the baby is fed, the id’s demand is fulfilled, and the baby stops crying."
+   ],
+   "mistakes": [
+    {
+     "why": "routing",
+     "label": "Identification",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.998,
+     "text": "Contrary to the instinctive id, the ego is the rational and pragmatic part of our personality. It’s less primitive than the id and is both p"
+    },
+    {
+     "why": "routing",
+     "label": "Identification",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.998,
+     "text": "The super ego, that begins to develop from the age of five, is often the third phase that encompasses the moral limitations. These moral lim"
+    },
+    {
+     "why": "routing",
+     "label": "Identification",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.997,
+     "text": "The trust versus mistrust stage is the first stage of psychologist Erik Erikson’s theory of psychosocial development. This stage begins at b"
+    },
+    {
+     "why": "routing",
+     "label": "Identification",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.994,
+     "text": "Autonomy versus shame and doubt is the second stage of Erik Erikson’s stages of psychosocial development. This stage occurs between the ages"
+    }
+   ]
+  },
+  "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx": {
+   "labels": {
+    "Identification": 193,
+    "Enumeration": 2,
+    "Concepts": 1
+   },
+   "system_counts": {
+    "terms": 183,
+    "enumerations": 8,
+    "enum_items": 32,
+    "formulas": 0,
+    "acronyms": 24,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 196,
+    "match_exact": 196,
+    "labelled": 196,
+    "label_correct": 190,
+    "route_correct": 190,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.969,
+   "routing_accuracy": 0.969,
+   "quality": {
+    "bad_enum_title": [
+     "'Transistors' [5 items] Document"
+    ]
+   },
+   "plain_sentences_skipped_by_rules": 6,
+   "left_out_lines": 17,
+   "left_out_sample": [
+    "Many professions across various industries require computing skills. Here's a list of some of the key professions:",
+    "Game Developer: Creating video games, including design, coding, and testing.",
+    "Video Game Designer: Designing the gameplay, rules, and structure of video games.",
+    "Robotics Technician: Building, maintaining, and programming robots.",
+    "Environmental and Geographic Information Systems (GIS)",
+    "These professions highlight the diverse applications of computing skills across industries.",
+    "These specializations offer a wide range of opportunities for professionals interested in different aspects of computing.",
+    "Computers have revolutionized various fields by enhancing efficiency, enabling new capabilities, and transforming how tasks are performed. Here’s an overview of how computers are applied across different fields:",
+    "Social Media: Platforms like Facebook, Twitter, and Instagram rely on computers to connect users, share content, and manage data.",
+    "These applications demonstrate the transformative impact of computers across various sectors, enhancing productivity, enabling innovation, and solving complex problems.",
+    "Theoretical Foundations and Early Machines (1800-1930)",
+    "(1945):** The Electronic Numerical Integrator and Computer (ENIAC) was the first general-purpose electronic digital computer, capable of performing a wide range of computations. It was used by the U.S. Army for artillery trajectory calculations."
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Identification",
+     "got": "Enumeration",
+     "section": "Enumeration",
+     "shape": "inline",
+     "by": "naive-bayes",
+     "conf": 0.962,
+     "text": "Game Developer Creating video games including design coding testing"
+    },
+    {
+     "why": "label",
+     "label": "Identification",
+     "got": "Enumeration",
+     "section": "Enumeration",
+     "shape": "inline",
+     "by": "naive-bayes",
+     "conf": 0.953,
+     "text": "Video Game Designer Designing the gameplay rules structure of video games"
+    },
+    {
+     "why": "label",
+     "label": "Identification",
+     "got": "Enumeration",
+     "section": "Enumeration",
+     "shape": "inline",
+     "by": "naive-bayes",
+     "conf": 0.971,
+     "text": "Robotics Technician Building maintaining programming robots"
+    },
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Enumeration",
+     "section": "Enumeration",
+     "shape": "inline",
+     "by": "naive-bayes",
+     "conf": 0.696,
+     "text": "Social Media Platforms like Facebook Twitter Instagram rely on computers to connect users share content manage data"
+    },
+    {
+     "why": "label",
+     "label": "Identification",
+     "got": "Enumeration",
+     "section": "Enumeration",
+     "shape": "inline",
+     "by": "naive-bayes",
+     "conf": 0.66,
+     "text": "Transistors Replacing vacuum tubes transistors made computers smaller faster more reliable energy-efficient"
+    },
+    {
+     "why": "label",
+     "label": "Identification",
+     "got": "Enumeration",
+     "section": "Enumeration",
+     "shape": "inline",
+     "by": "naive-bayes",
+     "conf": 0.918,
+     "text": "High-Level Programming Languages Languages like FORTRAN COBOL BASIC became widespread making programming more accessible"
+    }
+   ]
+  },
+  "CSS_BoxModel_Typography_Flexbox_Presentation-3.pptx": {
+   "labels": {
+    "Identification": 4,
+    "Formula": 3,
+    "Enumeration": 1
+   },
+   "system_counts": {
+    "terms": 4,
+    "enumerations": 1,
+    "enum_items": 5,
+    "formulas": 2,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 8,
+    "match_exact": 8,
+    "labelled": 8,
+    "label_correct": 7,
+    "route_correct": 7,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.875,
+   "routing_accuracy": 0.875,
+   "quality": {
+    "bad_enum_title": [
+     "'font-size' [5 items] Slide 5"
+    ],
+    "fake_list_from_one_sentence": [
+     "'font-size': ['Sets the text size (px', 'em', 'rem', '%', 'etc.)']"
+    ]
+   },
+   "plain_sentences_skipped_by_rules": 19,
+   "left_out_lines": 3,
+   "left_out_sample": [
+    "border: 5px solid #333; /* Border thickness */",
+    "flex-direction: row; /* Arrange in row */",
+    "justify-content: space-around; /* Space evenly */"
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Formula",
+     "got": "Enumeration",
+     "section": "dropped",
+     "shape": "group",
+     "by": "shape-fallback",
+     "conf": 0.431,
+     "text": "<div class=\"flex-container\"> <div class=\"flex-item\">1</div> <div class=\"flex-item\">2</div> <div class=\"flex-item\">3</div>"
+    }
+   ]
+  },
+  "Flutter_Event_Handling_and_Navigation_Professional (1).pptx": {
+   "labels": {
+    "Concepts": 2,
+    "skip": 7,
+    "Identification": 25,
+    "Enumeration": 1,
+    "Formula": 1
+   },
+   "system_counts": {
+    "terms": 27,
+    "enumerations": 6,
+    "enum_items": 24,
+    "formulas": 1,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 36,
+    "match_exact": 36,
+    "labelled": 29,
+    "label_correct": 28,
+    "route_correct": 28,
+    "junk_units": 7,
+    "junk_shown": 6,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.966,
+   "routing_accuracy": 0.966,
+   "quality": {
+    "fake_list_from_one_sentence": [
+     "'A visible or internal response': ['navigate', 'save', 'update', 'show a message']"
+    ],
+    "bad_enum_title": [
+     "'Example' [2 items] Slide 15",
+     "'Requirement' [3 items] Slide 26"
+    ]
+   },
+   "plain_sentences_skipped_by_rules": 85,
+   "left_out_lines": 40,
+   "left_out_sample": [
+    "Flutter & Dart • Interactive Mobile Application Development",
+    "Making the application respond to something that happens.",
+    "The code that decides what the application should do.",
+    "Example: User taps LOGIN → callback runs → app validates → Dashboard opens.",
+    "Think: WHAT happened? → WHAT should the app do?",
+    "Flutter calls it when the associated event occurs.",
+    "Callbacks keep UI widgets connected to application behavior.",
+    "Less prominent actions such as Cancel or Learn More.",
+    "Secondary actions with a visible border.",
+    "Useful for forms, validation, and preventing incomplete actions.",
+    "Useful for images, cards, containers, custom controls, and interactive layouts.",
+    "push → places a new screen on top of the stack."
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "pair",
+     "by": "naive-bayes",
+     "conf": 0.975,
+     "text": "Core idea: Respond to user actions, move between screens, exchange data, and react to app state changes."
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Enumeration",
+     "text": "Example Registration screen sends student name course to Profile"
+    },
+    {
+     "why": "routing",
+     "label": "Concepts",
+     "got": "Concepts",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.561,
+     "text": "Putting It All Together A login workflow User enters username and password. User taps LOGIN. onPressed callback validates the form. Navigato"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "child: const Text('VIEW PROFILE'),"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Build a 3-screen Student App: Screen 1: Welcome → button opens Login."
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Enumeration",
+     "text": "Screen 3 Profile → displays Name Student ID Course"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Enumeration",
+     "text": "Requirement use callbacks Navigator data passing"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Enumeration",
+     "text": "Quick Check Test your understanding What is a callback? Which widget can detect onTap and onLongPress? What is the difference between Naviga"
+    }
+   ]
+  },
+  "Global-vs-Differentiated-Models-Real-and-Ideal-Self-Concepts.pptx": {
+   "labels": {
+    "Enumeration": 1,
+    "Identification": 3
+   },
+   "system_counts": {
+    "terms": 3,
+    "enumerations": 1,
+    "enum_items": 10,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 4,
+    "match_exact": 4,
+    "labelled": 4,
+    "label_correct": 3,
+    "route_correct": 4,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.75,
+   "routing_accuracy": 1.0,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 14,
+   "left_out_lines": 14,
+   "left_out_sample": [
+    "MARICEL M. AGUILAR-FAYTAREN,LLB, LPT",
+    "Refers to the general value that a person places on himself or herself.",
+    "Refers to your ability to separate your own feelings and thoughts from others.",
+    "Someone's role is not stop being her or him. His/her responsibilities and sense of self.",
+    "i.e: Teenagers are strongly influenced by their peers and will go beyond conforming to changing their self image to match.",
+    "The self, as that which can be an object to itself, is essential a social structure and it arises in social experience.",
+    "The self in this view is like a flower, potentially growing into full bloom.",
+    "“Man is nothing else but what he makes of himself.” Rejecting any traditional, essentialist idea of human nature, Sartre adds: “In other words, there is freedom”. To clarify: “You are nothing less than your life” combining all your projects, actions and choices. The self, in his view, is not an iceberg, nor a passive reflection, nor a flower that may grow; it is what we make it, but it is somewhat atomistic",
+    "This model is indicated by the phrase “hidden depths” and reflects the notion that one may not really know someone, just the GOFFMANESQUE presentation of the different selves acting in different roles and circumstances, which may be camouflage and masks.",
+    "Our self concept is our identity. It is the concept you develop about yourself that evolves over the course of your life. This may include the aspects of your life that you have no control over, such as where you grew up or the color of your skin, as well as choices you make in life, such as how you spend your time and what you believe.",
+    "It is party unknown, even unknowable because it is so below conciousness and in progress.",
+    "Chameleon because it is multiple, mutable, adaptable and selective in presentation. These selves may be complementary, contradictory or conflicted."
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.649,
+     "text": "10 DIFFERENTIATED MODEL OF SELF SELF CONCIOUSNESS SELF MULTIPLE SELF LOOKING GLASS SELF AS STRUCTURE SELF AS FLOWER SELF AS A CREATIVE SELF "
+    }
+   ]
+  }
+ },
+ "possible_label_noise": [
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 6,
+   "your_label": "Concepts",
+   "model_says": "Identification",
+   "model_conf": 0.958,
+   "shape": "def",
+   "text": "Sandra Bem observed that the gender binary between male and female had become one of the basic organizational structures in human society. As a result, children"
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 11,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.947,
+   "shape": "def",
+   "text": "Behaviour is determined by consequences. The individual will obey in order to avoid punishment."
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 12,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.974,
+   "shape": "def",
+   "text": "Behaviour is determined again by consequences. The individual focuses on receiving rewards or satisfying personal needs."
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 15,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.968,
+   "shape": "def",
+   "text": "At this stage, the focus is on living up to societal expectations and roles. There is an emphasis on conformity, being “niceˮ, and consideration of how choices "
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 16,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.977,
+   "shape": "def",
+   "text": "The individual now takes into consideration a larger perspective, that of societal laws. The focus is on maintaining law and order by following the rules, doing"
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 19,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.967,
+   "shape": "def",
+   "text": "Individuals recognize that laws and rules are based on social contracts that promote the greatest good, but they understand that laws can be changed to benefit "
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 22,
+   "your_label": "Concepts",
+   "model_says": "Identification",
+   "model_conf": 0.897,
+   "shape": "def",
+   "text": "5) (by ages 2 and 3) The understanding of Children start to realize"
+  },
+  {
+   "file": "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "id": 77,
+   "your_label": "Identification",
+   "model_says": "Enumeration",
+   "model_conf": 0.962,
+   "shape": "inline",
+   "text": "Game Developer Creating video games including design coding testing"
+  },
+  {
+   "file": "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "id": 100,
+   "your_label": "Identification",
+   "model_says": "Enumeration",
+   "model_conf": 0.953,
+   "shape": "inline",
+   "text": "Video Game Designer Designing the gameplay rules structure of video games"
+  },
+  {
+   "file": "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "id": 119,
+   "your_label": "Identification",
+   "model_says": "Enumeration",
+   "model_conf": 0.971,
+   "shape": "inline",
+   "text": "Robotics Technician Building maintaining programming robots"
+  },
+  {
+   "file": "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "id": 254,
+   "your_label": "Identification",
+   "model_says": "Enumeration",
+   "model_conf": 0.918,
+   "shape": "inline",
+   "text": "High-Level Programming Languages Languages like FORTRAN COBOL BASIC became widespread making programming more accessible"
+  }
+ ],
+ "meta": {
+  "when": "2026-10-16 21:39",
+  "code": "46cf413fd2",
+  "mode": "leave-one-file-out (development files)",
+  "test_files": [
+   "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "Biblical-and-psychological-view-incomplete.pptx",
+   "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "CSS_BoxModel_Typography_Flexbox_Presentation-3.pptx",
+   "Flutter_Event_Handling_and_Navigation_Professional (1).pptx",
+   "Global-vs-Differentiated-Models-Real-and-Ideal-Self-Concepts.pptx"
+  ],
+  "locked_files": [
+   "understandingtheself-according-to-philosphy.pptx",
+   "WEEK-3-LESSON-4-FLAG-HERALDIC.pdf",
+   "519989408-Chapter-1-Concept-and-Nature-of-Self.pptx"
+  ],
+  "duplicate_files_dropped": {},
+  "blank_labels": [],
+  "confidence_floor": 0.5
+ }
+}

@@ -1,0 +1,831 @@
+{
+ "classifier": {
+  "n": 281,
+  "accuracy": 0.929,
+  "per_class": {
+   "Identification": {
+    "precision": 0.951,
+    "recall": 0.981,
+    "f1": 0.966,
+    "support": 257
+   },
+   "Enumeration": {
+    "precision": 0.417,
+    "recall": 0.357,
+    "f1": 0.385,
+    "support": 14
+   },
+   "Concepts": {
+    "precision": 1.0,
+    "recall": 0.167,
+    "f1": 0.286,
+    "support": 6
+   },
+   "Formula": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.857,
+    "support": 4
+   }
+  },
+  "macro_f1": 0.623,
+  "confusion_matrix": {
+   "rows=true, cols=predicted": [
+    "Identification",
+    "Enumeration",
+    "Concepts",
+    "Formula"
+   ],
+   "matrix": [
+    [
+     252,
+     5,
+     0,
+     0
+    ],
+    [
+     9,
+     5,
+     0,
+     0
+    ],
+    [
+     4,
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     3
+    ]
+   ]
+  },
+  "naive_bayes_only": {
+   "n": 281,
+   "accuracy": 0.929,
+   "per_class": {
+    "Identification": {
+     "precision": 0.951,
+     "recall": 0.981,
+     "f1": 0.966,
+     "support": 257
+    },
+    "Enumeration": {
+     "precision": 0.417,
+     "recall": 0.357,
+     "f1": 0.385,
+     "support": 14
+    },
+    "Concepts": {
+     "precision": 1.0,
+     "recall": 0.167,
+     "f1": 0.286,
+     "support": 6
+    },
+    "Formula": {
+     "precision": 1.0,
+     "recall": 0.75,
+     "f1": 0.857,
+     "support": 4
+    }
+   },
+   "macro_f1": 0.623,
+   "confusion_matrix": {
+    "rows=true, cols=predicted": [
+     "Identification",
+     "Enumeration",
+     "Concepts",
+     "Formula"
+    ],
+    "matrix": [
+     [
+      252,
+      5,
+      0,
+      0
+     ],
+     [
+      9,
+      5,
+      0,
+      0
+     ],
+     [
+      4,
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      3
+     ]
+    ]
+   }
+  },
+  "shape_fallback": {
+   "used": 1,
+   "of": 281,
+   "accuracy_when_used": 0.0
+  }
+ },
+ "classifier_per_file": {
+  "4.-GS_Gender-Development-Theories_compressed.pdf": {
+   "n": 36,
+   "correct": 26,
+   "accuracy": 0.722
+  },
+  "Biblical-and-psychological-view-incomplete.pptx": {
+   "n": 8,
+   "correct": 8,
+   "accuracy": 1.0
+  },
+  "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx": {
+   "n": 196,
+   "correct": 190,
+   "accuracy": 0.969
+  },
+  "CSS_BoxModel_Typography_Flexbox_Presentation-3.pptx": {
+   "n": 8,
+   "correct": 6,
+   "accuracy": 0.75
+  },
+  "Flutter_Event_Handling_and_Navigation_Professional (1).pptx": {
+   "n": 29,
+   "correct": 28,
+   "accuracy": 0.966
+  },
+  "Global-vs-Differentiated-Models-Real-and-Ideal-Self-Concepts.pptx": {
+   "n": 4,
+   "correct": 3,
+   "accuracy": 0.75
+  }
+ },
+ "system": {
+  "n": 273,
+  "accuracy": 0.949,
+  "per_class": {
+   "Identification": {
+    "precision": 0.954,
+    "recall": 0.996,
+    "f1": 0.975,
+    "support": 252
+   },
+   "Enumeration": {
+    "precision": 0.667,
+    "recall": 0.333,
+    "f1": 0.444,
+    "support": 12
+   },
+   "Concepts": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1": 0.333,
+    "support": 5
+   },
+   "Formula": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.857,
+    "support": 4
+   }
+  },
+  "macro_f1": 0.652,
+  "confusion_matrix": {
+   "rows=true, cols=predicted": [
+    "Identification",
+    "Enumeration",
+    "Concepts",
+    "Formula"
+   ],
+   "matrix": [
+    [
+     251,
+     1,
+     0,
+     0
+    ],
+    [
+     8,
+     4,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     3
+    ]
+   ]
+  },
+  "routing_accuracy": 0.96,
+  "junk_units": 14,
+  "junk_shown": 1,
+  "unlabelled_units": 26,
+  "labelled_units_not_found": 8,
+  "route_matrix": {
+   "Enumeration": {
+    "Enumeration": 6,
+    "Identification": 6
+   },
+   "Identification": {
+    "Identification": 250,
+    "dropped": 1,
+    "Enumeration": 1
+   },
+   "Concepts": {
+    "Identification": 3,
+    "dropped": 1,
+    "Enumeration": 1
+   },
+   "skip": {
+    "dropped": 13,
+    "Identification": 1
+   },
+   "Formula": {
+    "Formula": 3,
+    "dropped": 1
+   }
+  },
+  "quality_totals": {
+   "fake_list_from_one_sentence": 1
+  }
+ },
+ "files": {
+  "4.-GS_Gender-Development-Theories_compressed.pdf": {
+   "labels": {
+    "Enumeration": 8,
+    "Identification": 25,
+    "Concepts": 3,
+    "skip": 13
+   },
+   "system_counts": {
+    "terms": 26,
+    "enumerations": 2,
+    "enum_items": 15,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 49,
+    "match_exact": 48,
+    "labelled": 36,
+    "label_correct": 26,
+    "route_correct": 28,
+    "junk_units": 13,
+    "match_text": 1,
+    "junk_shown": 1,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.722,
+   "routing_accuracy": 0.778,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 51,
+   "left_out_lines": 65,
+   "left_out_sample": [
+    "Sandra Bem’s Gender Schema Theory",
+    "From a young age, children learn these gender schemas by observing the people around them, media, and societal norms, and they start using these schemas to guide their behavior and understand what is expected of them as boys or girls.",
+    "Culture plays a significant role in determining what behaviors, responsibilities, and characteristics are deemed appropriate for men and women.",
+    "Examples: Masculinity and Emotional Expression; Women as Caregivers; Male Leadership",
+    "Culture Influences How People Are Valued",
+    "Cultural norms also play a major role in how people are valued based on their gender, with different cultures emphasizing different attributes for men and women.",
+    "Examples: Beauty Standards for Women; Financial Success for Men;",
+    "Cultural Influences Can Be Overt and Subtle",
+    "Cultural influences on gender schemas can manifest in both obvious and more nuanced ways.",
+    "Examples: Overt Gender Segregation in Schools; Subtle Messages in Media",
+    "Level 1. Preconventional Morality (Typically seen in young children, but some adults may remain at this level)",
+    "At the pre-conventional level, Action is driven by fear and self-interest."
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.812,
+     "text": "Children first learn their own gender by ages two and three . Then, they learn what it means to be a male or female in their society. Childr"
+    },
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.957,
+     "text": "Sandra Bem observed that the gender binary between male and female had become one of the basic organizational structures in human society. A"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.533,
+     "text": "Kohlberg's Theory of Moral Development Stages Obedience and Punishment Individualism and Exchange Developing Good Interpersonal Relationship"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.995,
+     "text": "Behaviour is determined by consequences. The individual will obey in order to avoid punishment."
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.998,
+     "text": "Behaviour is determined again by consequences. The individual focuses on receiving rewards or satisfying personal needs."
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.999,
+     "text": "At this stage, the focus is on living up to societal expectations and roles. There is an emphasis on conformity, being “niceˮ, and considera"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.998,
+     "text": "The individual now takes into consideration a larger perspective, that of societal laws. The focus is on maintaining law and order by follow"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.999,
+     "text": "Individuals recognize that laws and rules are based on social contracts that promote the greatest good, but they understand that laws can be"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.987,
+     "text": "People at this stage have developed their own set of moral guidelines, which may or may not fit the law. The principles apply to everyone."
+    },
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.981,
+     "text": "5) (by ages 2 and 3) The understanding of Children start to realize"
+    },
+    {
+     "why": "routing",
+     "label": "Identification",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "pair",
+     "by": "naive-bayes",
+     "conf": 0.994,
+     "text": "Gender Constancy: Example: A 5-year-old boy understands that even if he wears a pink shirt or plays with dolls, he is still a boy and this w"
+    },
+    {
+     "why": "junk shown",
+     "label": "skip",
+     "got": "Identification",
+     "text": "Politics: People who identify as non-binary are an example of how queer theory opens up new understandings of gender. Many non-binary people"
+    }
+   ]
+  },
+  "Biblical-and-psychological-view-incomplete.pptx": {
+   "labels": {
+    "Identification": 8
+   },
+   "system_counts": {
+    "terms": 11,
+    "enumerations": 0,
+    "enum_items": 0,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 13,
+    "match_unlabelled": 8,
+    "match_exact": 5,
+    "labelled": 5,
+    "label_correct": 5,
+    "route_correct": 5,
+    "labelled_units_not_found": 3
+   },
+   "unit_accuracy": 1.0,
+   "routing_accuracy": 1.0,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 6,
+   "left_out_lines": 14,
+   "left_out_sample": [
+    "The Christian or Biblical view of Self",
+    "And God said, “Let the land produce living creatures according to their kinds: the livestock, the creatures that move along the ground, and the wild animals, each according to its kind.” And it was so. 25 God made the wild animals according to their kinds, the livestock according to their kinds, and all the creatures that move along the ground according to their kinds. And God saw that it was good.",
+    "26 Then God said, “Let us make mankind in our image, in our likeness, so that they may rule over the fish in the sea and the birds in the sky, over the livestock and all the wild animals,[a] and over all the creatures that move along the ground.”",
+    "27 So God created mankind in his own image,",
+    "in the image of God he created them;",
+    "male and female he created them.",
+    "28 God blessed them and said to them, “Be fruitful and increase in number; fill the earth and subdue it. Rule over the fish in the sea and the birds in the sky and over every living creature that moves on the ground.”",
+    "St. Augustine: Love and Justice as the foundation of the Individual Self.",
+    "St. Augustine believes that a virtues life is dynamism of love. It is a constant following of and turning towards love while a wicked life is a constant turning away from love. Loving God means loving one’s fellowmen; and loving one’s fellowmen denotes never doing any harm to another or, as the golden principle of justice states, doing unto others as you would have them unto you.",
+    "Freud's 5 Stages of Psychosexual Development",
+    "(Infancy from birth to 18 months",
+    "Stage 2: Autonomy vs. Shame and Doubt (Toddler years from 18 months to three years)"
+   ],
+   "mistakes": []
+  },
+  "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx": {
+   "labels": {
+    "Identification": 193,
+    "Enumeration": 2,
+    "Concepts": 1
+   },
+   "system_counts": {
+    "terms": 188,
+    "enumerations": 3,
+    "enum_items": 12,
+    "formulas": 0,
+    "acronyms": 24,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 196,
+    "match_exact": 190,
+    "labelled": 195,
+    "label_correct": 194,
+    "route_correct": 194,
+    "match_similar": 5,
+    "match_unlabelled": 1,
+    "labelled_units_not_found": 1
+   },
+   "unit_accuracy": 0.995,
+   "routing_accuracy": 0.995,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 6,
+   "left_out_lines": 11,
+   "left_out_sample": [
+    "Many professions across various industries require computing skills. Here's a list of some of the key professions:",
+    "Environmental and Geographic Information Systems (GIS)",
+    "These professions highlight the diverse applications of computing skills across industries.",
+    "These specializations offer a wide range of opportunities for professionals interested in different aspects of computing.",
+    "Computers have revolutionized various fields by enhancing efficiency, enabling new capabilities, and transforming how tasks are performed. Here’s an overview of how computers are applied across different fields:",
+    "These applications demonstrate the transformative impact of computers across various sectors, enhancing productivity, enabling innovation, and solving complex problems.",
+    "Theoretical Foundations and Early Machines (1800-1930)",
+    "(1945):** The Electronic Numerical Integrator and Computer (ENIAC) was the first general-purpose electronic digital computer, capable of performing a wide range of computations. It was used by the U.S. Army for artillery trajectory calculations.",
+    "High-Level Programming Languages: Languages like FORTRAN, COBOL, and BASIC became widespread, making programming more accessible.",
+    "Fifth Generation and Beyond (1990s-Present)",
+    "The evolution of computing has transformed society, driving innovation across virtually all sectors and continuing to shape the future."
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Identification",
+     "got": "Enumeration",
+     "section": "Enumeration",
+     "shape": "inline",
+     "by": "naive-bayes",
+     "conf": 0.918,
+     "text": "High-Level Programming Languages Languages like FORTRAN COBOL BASIC became widespread making programming more accessible"
+    }
+   ]
+  },
+  "CSS_BoxModel_Typography_Flexbox_Presentation-3.pptx": {
+   "labels": {
+    "Identification": 3,
+    "Formula": 3,
+    "Enumeration": 2
+   },
+   "system_counts": {
+    "terms": 16,
+    "enumerations": 2,
+    "enum_items": 13,
+    "formulas": 2,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 21,
+    "match_exact": 6,
+    "labelled": 6,
+    "label_correct": 5,
+    "route_correct": 5,
+    "match_unlabelled": 15,
+    "labelled_units_not_found": 2
+   },
+   "unit_accuracy": 0.833,
+   "routing_accuracy": 0.833,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 13,
+   "left_out_lines": 3,
+   "left_out_sample": [
+    "border: 5px solid #333; /* Border thickness */",
+    "flex-direction: row; /* Arrange in row */",
+    "justify-content: space-around; /* Space evenly */"
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Formula",
+     "got": "Enumeration",
+     "section": "dropped",
+     "shape": "group",
+     "by": "shape-fallback",
+     "conf": 0.431,
+     "text": "<div class=\"flex-container\"> <div class=\"flex-item\">1</div> <div class=\"flex-item\">2</div> <div class=\"flex-item\">3</div>"
+    }
+   ]
+  },
+  "Flutter_Event_Handling_and_Navigation_Professional (1).pptx": {
+   "labels": {
+    "Concepts": 2,
+    "skip": 7,
+    "Identification": 25,
+    "Enumeration": 1,
+    "Formula": 1
+   },
+   "system_counts": {
+    "terms": 24,
+    "enumerations": 2,
+    "enum_items": 10,
+    "formulas": 1,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 28,
+    "match_exact": 28,
+    "labelled": 27,
+    "label_correct": 26,
+    "route_correct": 26,
+    "junk_units": 1,
+    "labelled_units_not_found": 2
+   },
+   "unit_accuracy": 0.963,
+   "routing_accuracy": 0.963,
+   "quality": {
+    "fake_list_from_one_sentence": [
+     "'A visible or internal response': ['navigate', 'save', 'update', 'show a message']"
+    ]
+   },
+   "plain_sentences_skipped_by_rules": 81,
+   "left_out_lines": 47,
+   "left_out_sample": [
+    "Flutter & Dart • Interactive Mobile Application Development",
+    "Making the application respond to something that happens.",
+    "The code that decides what the application should do.",
+    "Example: User taps LOGIN → callback runs → app validates → Dashboard opens.",
+    "Think: WHAT happened? → WHAT should the app do?",
+    "Flutter calls it when the associated event occurs.",
+    "Callbacks keep UI widgets connected to application behavior.",
+    "Less prominent actions such as Cancel or Learn More.",
+    "Secondary actions with a visible border.",
+    "Useful for forms, validation, and preventing incomplete actions.",
+    "Useful for images, cards, containers, custom controls, and interactive layouts.",
+    "child: const Center(child: Text(\"Touch Me\")),"
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "pair",
+     "by": "naive-bayes",
+     "conf": 0.974,
+     "text": "Core idea: Respond to user actions, move between screens, exchange data, and react to app state changes."
+    },
+    {
+     "why": "routing",
+     "label": "Concepts",
+     "got": "Concepts",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.56,
+     "text": "Putting It All Together A login workflow User enters username and password. User taps LOGIN. onPressed callback validates the form. Navigato"
+    }
+   ]
+  },
+  "Global-vs-Differentiated-Models-Real-and-Ideal-Self-Concepts.pptx": {
+   "labels": {
+    "Enumeration": 1,
+    "Identification": 3
+   },
+   "system_counts": {
+    "terms": 5,
+    "enumerations": 1,
+    "enum_items": 10,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 6,
+    "match_unlabelled": 2,
+    "match_exact": 4,
+    "labelled": 4,
+    "label_correct": 3,
+    "route_correct": 4,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.75,
+   "routing_accuracy": 1.0,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 12,
+   "left_out_lines": 12,
+   "left_out_sample": [
+    "MARICEL M. AGUILAR-FAYTAREN,LLB, LPT",
+    "Someone's role is not stop being her or him. His/her responsibilities and sense of self.",
+    "i.e: Teenagers are strongly influenced by their peers and will go beyond conforming to changing their self image to match.",
+    "The self, as that which can be an object to itself, is essential a social structure and it arises in social experience.",
+    "The self in this view is like a flower, potentially growing into full bloom.",
+    "“Man is nothing else but what he makes of himself.” Rejecting any traditional, essentialist idea of human nature, Sartre adds: “In other words, there is freedom”. To clarify: “You are nothing less than your life” combining all your projects, actions and choices. The self, in his view, is not an iceberg, nor a passive reflection, nor a flower that may grow; it is what we make it, but it is somewhat atomistic",
+    "This model is indicated by the phrase “hidden depths” and reflects the notion that one may not really know someone, just the GOFFMANESQUE presentation of the different selves acting in different roles and circumstances, which may be camouflage and masks.",
+    "Our self concept is our identity. It is the concept you develop about yourself that evolves over the course of your life. This may include the aspects of your life that you have no control over, such as where you grew up or the color of your skin, as well as choices you make in life, such as how you spend your time and what you believe.",
+    "It is party unknown, even unknowable because it is so below conciousness and in progress.",
+    "Chameleon because it is multiple, mutable, adaptable and selective in presentation. These selves may be complementary, contradictory or conflicted.",
+    "The REAL SELF is who we actually are. It is how we think, how we feel, look and act. The real self can be seen by others, but because we have no way of truly knowing how others views us, the real self is our self-image.",
+    "The IDEAL SELF, is how we want to be. It is an idealized image that we have developed over time, based on what we have learned and experienced. The ideal self could include components of what our parents have taught us, what we admire in others, what our society promotes, and what we think is in our best interest."
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.649,
+     "text": "10 DIFFERENTIATED MODEL OF SELF SELF CONCIOUSNESS SELF MULTIPLE SELF LOOKING GLASS SELF AS STRUCTURE SELF AS FLOWER SELF AS A CREATIVE SELF "
+    }
+   ]
+  }
+ },
+ "possible_label_noise": [
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 6,
+   "your_label": "Concepts",
+   "model_says": "Identification",
+   "model_conf": 0.957,
+   "shape": "def",
+   "text": "Sandra Bem observed that the gender binary between male and female had become one of the basic organizational structures in human society. As a result, children"
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 11,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.947,
+   "shape": "def",
+   "text": "Behaviour is determined by consequences. The individual will obey in order to avoid punishment."
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 12,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.974,
+   "shape": "def",
+   "text": "Behaviour is determined again by consequences. The individual focuses on receiving rewards or satisfying personal needs."
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 15,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.967,
+   "shape": "def",
+   "text": "At this stage, the focus is on living up to societal expectations and roles. There is an emphasis on conformity, being “niceˮ, and consideration of how choices "
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 16,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.977,
+   "shape": "def",
+   "text": "The individual now takes into consideration a larger perspective, that of societal laws. The focus is on maintaining law and order by following the rules, doing"
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 19,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.967,
+   "shape": "def",
+   "text": "Individuals recognize that laws and rules are based on social contracts that promote the greatest good, but they understand that laws can be changed to benefit "
+  },
+  {
+   "file": "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "id": 22,
+   "your_label": "Concepts",
+   "model_says": "Identification",
+   "model_conf": 0.886,
+   "shape": "def",
+   "text": "5) (by ages 2 and 3) The understanding of Children start to realize"
+  },
+  {
+   "file": "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "id": 77,
+   "your_label": "Identification",
+   "model_says": "Enumeration",
+   "model_conf": 0.962,
+   "shape": "inline",
+   "text": "Game Developer Creating video games including design coding testing"
+  },
+  {
+   "file": "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "id": 100,
+   "your_label": "Identification",
+   "model_says": "Enumeration",
+   "model_conf": 0.953,
+   "shape": "inline",
+   "text": "Video Game Designer Designing the gameplay rules structure of video games"
+  },
+  {
+   "file": "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "id": 119,
+   "your_label": "Identification",
+   "model_says": "Enumeration",
+   "model_conf": 0.971,
+   "shape": "inline",
+   "text": "Robotics Technician Building maintaining programming robots"
+  },
+  {
+   "file": "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "id": 254,
+   "your_label": "Identification",
+   "model_says": "Enumeration",
+   "model_conf": 0.918,
+   "shape": "inline",
+   "text": "High-Level Programming Languages Languages like FORTRAN COBOL BASIC became widespread making programming more accessible"
+  },
+  {
+   "file": "CSS_BoxModel_Typography_Flexbox_Presentation-3.pptx",
+   "id": 276,
+   "your_label": "Enumeration",
+   "model_says": "Identification",
+   "model_conf": 0.866,
+   "shape": "def",
+   "text": "display: flex; – Enables flex layout. flex-direction: Row or column layout. justify-content: Aligns items horizontally (start, center, end, space-between). alig"
+  }
+ ],
+ "meta": {
+  "when": "2026-10-17 13:20",
+  "code": "b92894b7c6",
+  "mode": "leave-one-file-out (development files)",
+  "test_files": [
+   "4.-GS_Gender-Development-Theories_compressed.pdf",
+   "Biblical-and-psychological-view-incomplete.pptx",
+   "CC101-INTRODUCTION-IN-COMPUTING_LESSON.docx",
+   "CSS_BoxModel_Typography_Flexbox_Presentation-3.pptx",
+   "Flutter_Event_Handling_and_Navigation_Professional (1).pptx",
+   "Global-vs-Differentiated-Models-Real-and-Ideal-Self-Concepts.pptx"
+  ],
+  "locked_files": [
+   "understandingtheself-according-to-philosphy.pptx",
+   "WEEK-3-LESSON-4-FLAG-HERALDIC.pdf",
+   "519989408-Chapter-1-Concept-and-Nature-of-Self.pptx"
+  ],
+  "duplicate_files_dropped": {},
+  "blank_labels": [],
+  "confidence_floor": 0.5
+ }
+}

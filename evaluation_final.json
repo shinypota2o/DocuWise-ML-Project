@@ -1,0 +1,523 @@
+{
+ "classifier": {
+  "n": 45,
+  "accuracy": 0.844,
+  "per_class": {
+   "Identification": {
+    "precision": 0.854,
+    "recall": 0.972,
+    "f1": 0.909,
+    "support": 36
+   },
+   "Enumeration": {
+    "precision": 0.5,
+    "recall": 0.333,
+    "f1": 0.4,
+    "support": 3
+   },
+   "Concepts": {
+    "precision": 1.0,
+    "recall": 0.333,
+    "f1": 0.5,
+    "support": 6
+   },
+   "Formula": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 0
+   }
+  },
+  "macro_f1": 0.452,
+  "confusion_matrix": {
+   "rows=true, cols=predicted": [
+    "Identification",
+    "Enumeration",
+    "Concepts",
+    "Formula"
+   ],
+   "matrix": [
+    [
+     35,
+     1,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     2,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "naive_bayes_only": {
+   "n": 45,
+   "accuracy": 0.844,
+   "per_class": {
+    "Identification": {
+     "precision": 0.854,
+     "recall": 0.972,
+     "f1": 0.909,
+     "support": 36
+    },
+    "Enumeration": {
+     "precision": 0.5,
+     "recall": 0.333,
+     "f1": 0.4,
+     "support": 3
+    },
+    "Concepts": {
+     "precision": 1.0,
+     "recall": 0.333,
+     "f1": 0.5,
+     "support": 6
+    },
+    "Formula": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 0
+    }
+   },
+   "macro_f1": 0.452,
+   "confusion_matrix": {
+    "rows=true, cols=predicted": [
+     "Identification",
+     "Enumeration",
+     "Concepts",
+     "Formula"
+    ],
+    "matrix": [
+     [
+      35,
+      1,
+      0,
+      0
+     ],
+     [
+      2,
+      1,
+      0,
+      0
+     ],
+     [
+      4,
+      0,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  "shape_fallback": {
+   "used": 1,
+   "of": 45,
+   "accuracy_when_used": 0.0
+  }
+ },
+ "classifier_per_file": {
+  "understandingtheself-according-to-philosphy.pptx": {
+   "n": 20,
+   "correct": 17,
+   "accuracy": 0.85
+  },
+  "WEEK-3-LESSON-4-FLAG-HERALDIC.pdf": {
+   "n": 9,
+   "correct": 8,
+   "accuracy": 0.889
+  },
+  "519989408-Chapter-1-Concept-and-Nature-of-Self.pptx": {
+   "n": 16,
+   "correct": 13,
+   "accuracy": 0.812
+  }
+ },
+ "system": {
+  "n": 42,
+  "accuracy": 0.833,
+  "per_class": {
+   "Identification": {
+    "precision": 0.842,
+    "recall": 0.97,
+    "f1": 0.901,
+    "support": 33
+   },
+   "Enumeration": {
+    "precision": 0.5,
+    "recall": 0.333,
+    "f1": 0.4,
+    "support": 3
+   },
+   "Concepts": {
+    "precision": 1.0,
+    "recall": 0.333,
+    "f1": 0.5,
+    "support": 6
+   },
+   "Formula": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 0
+   }
+  },
+  "macro_f1": 0.45,
+  "confusion_matrix": {
+   "rows=true, cols=predicted": [
+    "Identification",
+    "Enumeration",
+    "Concepts",
+    "Formula"
+   ],
+   "matrix": [
+    [
+     32,
+     1,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     4,
+     0,
+     2,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "routing_accuracy": 0.833,
+  "junk_units": 0,
+  "junk_shown": 0,
+  "unlabelled_units": 8,
+  "labelled_units_not_found": 3,
+  "route_matrix": {
+   "Identification": {
+    "Identification": 30,
+    "dropped": 2,
+    "Enumeration": 1
+   },
+   "Concepts": {
+    "Identification": 2,
+    "dropped": 3,
+    "Enumeration": 1
+   },
+   "Enumeration": {
+    "Comparisons": 1,
+    "Enumeration": 2
+   }
+  },
+  "quality_totals": {}
+ },
+ "files": {
+  "understandingtheself-according-to-philosphy.pptx": {
+   "labels": {
+    "Identification": 18,
+    "Concepts": 2
+   },
+   "system_counts": {
+    "terms": 15,
+    "enumerations": 1,
+    "enum_items": 2,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 22,
+    "match_exact": 20,
+    "labelled": 20,
+    "label_correct": 17,
+    "route_correct": 16,
+    "match_unlabelled": 2,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.85,
+   "routing_accuracy": 0.8,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 102,
+   "left_out_lines": 70,
+   "left_out_sample": [
+    "BY: MARICEL M. AGUILAR-FAYTAREN, LLB, LPT",
+    "DEFINITION OF THE SELF: PHILOSOPHICAL JOURNEY",
+    "Questioning existing knowledge and intuitions to get closer to the truth.",
+    "What will you get out of philosophy?",
+    "The skills are critical thinking skills, argument skills, communication, reasoning, problem solving, analysis and much more.",
+    "You can justify your opinion and spot a bad argument what ever the topic is. You can explain to people why you are right and they are wrong. Lastly, philosophy basically teaches you to think.",
+    "The first to use the word philosopy",
+    "The origin of philosophy and logic",
+    "The people tend to search for truth",
+    "Search is to look for something",
+    "Ancient Greek philosopher, mathematician and astronomer",
+    "“AN UNEXAMINED LIFE IS NOT WORTH LIVING”"
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.948,
+     "text": "What is the role of philosophy in understanding the self? What are the different concepts of the self from the philosophical view? What are "
+    },
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.665,
+     "text": "Finding answers to serious questions about ourselves and about the world we live in What is morally right and wrong? And why? What is a good"
+    },
+    {
+     "why": "routing",
+     "label": "Identification",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "def",
+     "by": "naive-bayes",
+     "conf": 0.999,
+     "text": "Philosophers agree that self-knowledge is a prerequisite to a happy and meaningful life."
+    },
+    {
+     "why": "label",
+     "label": "Identification",
+     "got": "Enumeration",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "shape-fallback",
+     "conf": 0.406,
+     "text": "Rational Soul reason and intellect divine essence that enables"
+    },
+    {
+     "why": "routing",
+     "label": "Identification",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.597,
+     "text": "Locke theorized that when a person is born, the baby know absolutely nothing In essence, he a argued that the inside of a baby’s brain was e"
+    }
+   ]
+  },
+  "WEEK-3-LESSON-4-FLAG-HERALDIC.pdf": {
+   "labels": {
+    "Identification": 6,
+    "Concepts": 3
+   },
+   "system_counts": {
+    "terms": 5,
+    "enumerations": 1,
+    "enum_items": 3,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 0
+   },
+   "units": {
+    "units": 9,
+    "match_exact": 9,
+    "labelled": 9,
+    "label_correct": 8,
+    "route_correct": 6,
+    "labelled_units_not_found": 0
+   },
+   "unit_accuracy": 0.889,
+   "routing_accuracy": 0.667,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 19,
+   "left_out_lines": 26,
+   "left_out_sample": [
+    "At the end of the topic:",
+    "Explain the importance of flag and other national symbols;",
+    "Identify the steps on how to properly fold the Philippine flag;",
+    "Salient Feature of RA No. 8491 of 2002 (Flag and Heraldic Code of the Philippines)",
+    "symbol of the nation’s camaraderie, sovereignty,",
+    "Flag solidarity and unity. It is therefore, the symbol of",
+    "nationalism and patriotism in our country.",
+    "The sun with eight rays in the Philippine flag represents the first eight provinces (Manila, Bulacan, Pampanga, Nueva Ecija, Tarlac, Laguna, Batangas and Cavite) that revolt and fought for independence from the Spanish-rule.",
+    "The flag was conceptualized by Emilio Aguinaldo.",
+    "The first flag was sewn in Hongkong by Marcela Agoncillo, her daughter Lorenza, and Dona DelfinaHerbosa de Natividad, niece of Jose Rizal.",
+    "The flag is displayed with the blue field on the top in times of peace, and with red field on top in times of war.",
+    "The flag’s length is twice its width, which translate into an aspect ratio of 1:2. The length of all sides of the white triangle is equal to the width of the flag. Each star is oriented in such manner that one of its tips points towards the vertex at which it is located."
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "dropped",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.537,
+     "text": "In Section 9 of RA 8491, the Philippine flag must be permanently hoisted and illuminated at night at the following locations Malacañang Pala"
+    },
+    {
+     "why": "routing",
+     "label": "Concepts",
+     "got": "Concepts",
+     "section": "dropped",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.52,
+     "text": "In Section 34 of RA 8491, the flag cannot be used in the following rationales: As part of merchandise or in any advertisement or infomercial"
+    },
+    {
+     "why": "routing",
+     "label": "Concepts",
+     "got": "Concepts",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.749,
+     "text": "Other Rules on the Display of the Philippine Flag On board naval vessels, the flag shall be displayed on the flagstaff at the stern when the"
+    }
+   ]
+  },
+  "519989408-Chapter-1-Concept-and-Nature-of-Self.pptx": {
+   "labels": {
+    "Concepts": 1,
+    "Identification": 12,
+    "Enumeration": 3
+   },
+   "system_counts": {
+    "terms": 11,
+    "enumerations": 2,
+    "enum_items": 5,
+    "formulas": 0,
+    "acronyms": 0,
+    "comparisons": 1
+   },
+   "units": {
+    "units": 19,
+    "match_exact": 13,
+    "labelled": 13,
+    "label_correct": 10,
+    "route_correct": 13,
+    "match_unlabelled": 6,
+    "labelled_units_not_found": 3
+   },
+   "unit_accuracy": 0.769,
+   "routing_accuracy": 1.0,
+   "quality": {},
+   "plain_sentences_skipped_by_rules": 27,
+   "left_out_lines": 27,
+   "left_out_sample": [
+    "Answer the following questions in an essay form. Maximum of 10 sentences not less than 5 sentences.",
+    "What is your favorite line/lyrics in the song and Why?",
+    "What are you most grateful for in life?",
+    "What are the biggest and most important things you have learned in life so far?",
+    "“Know yourself” tells each man to bring his inner self to light.",
+    "is the deepest and most basic propensity of man. Knowing one’s own virtue is necessary and can be learned. It is innate in the mind.",
+    "is the source of all wisdom, an individual may gain possession of oneself and be one’s own master through knowledge",
+    "Plato: The Ideal Self, the Perfect Self",
+    "“Man was omniscient or all-knowing before he came to be born into this world.",
+    "Respect others as you would respect yourself",
+    "Rene Descartes: “I Think, therefore I am”",
+    "Although the mind and body are independent from each other and serve their own function, man must use his own mind and thinking abilities to investigate, analyze, experiment, and develop himself"
+   ],
+   "mistakes": [
+    {
+     "why": "label",
+     "label": "Concepts",
+     "got": "Identification",
+     "section": "Identification",
+     "shape": "pair",
+     "by": "naive-bayes",
+     "conf": 0.995,
+     "text": "How to regain perfection? DOING GOOD: Man who is now exile on earth has a guiding star, a model, or divine exemplar which he must follow to "
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Comparisons",
+     "shape": "table",
+     "by": "naive-bayes",
+     "conf": 0.845,
+     "text": "SUPEREGO TWO SUBSYSTEM: EGO-IDEAL --> your view of what is right or tells us what we should DO. It develops from experiences with rewards of"
+    },
+    {
+     "why": "label",
+     "label": "Enumeration",
+     "got": "Identification",
+     "section": "Enumeration",
+     "shape": "group",
+     "by": "naive-bayes",
+     "conf": 0.507,
+     "text": "The Psychological View of Self Erik Erikson: Psychosocial Stages of Self-development"
+    }
+   ]
+  }
+ },
+ "possible_label_noise": [
+  {
+   "file": "understandingtheself-according-to-philosphy.pptx",
+   "id": 328,
+   "your_label": "Concepts",
+   "model_says": "Identification",
+   "model_conf": 0.948,
+   "shape": "def",
+   "text": "What is the role of philosophy in understanding the self? What are the different concepts of the self from the philosophical view? What are the various concepts"
+  },
+  {
+   "file": "519989408-Chapter-1-Concept-and-Nature-of-Self.pptx",
+   "id": 50,
+   "your_label": "Concepts",
+   "model_says": "Identification",
+   "model_conf": 0.948,
+   "shape": "pair",
+   "text": "How to regain perfection? DOING GOOD: Man who is now exile on earth has a guiding star, a model, or divine exemplar which he must follow to reach and attain his"
+  }
+ ],
+ "meta": {
+  "when": "2026-10-16 22:47",
+  "code": "4c0bbcc67c",
+  "mode": "final (locked files)",
+  "test_files": [
+   "understandingtheself-according-to-philosphy.pptx",
+   "WEEK-3-LESSON-4-FLAG-HERALDIC.pdf",
+   "519989408-Chapter-1-Concept-and-Nature-of-Self.pptx"
+  ],
+  "locked_files": [
+   "understandingtheself-according-to-philosphy.pptx",
+   "WEEK-3-LESSON-4-FLAG-HERALDIC.pdf",
+   "519989408-Chapter-1-Concept-and-Nature-of-Self.pptx"
+  ],
+  "duplicate_files_dropped": {},
+  "blank_labels": [],
+  "confidence_floor": 0.5
+ }
+}
